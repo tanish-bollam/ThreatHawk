@@ -1,27 +1,32 @@
 # ThreatHawk Dashboard
 
-A real-time security monitoring dashboard built with **React** and **Vite**.  
-Displays system logs and highlights the top high-risk users.
+**ThreatHawk Dashboard** is a real-time security monitoring tool built to identify and visualize potential threats by tracking high-risk user activities. The dashboard provides system logs, a ranked risk chart, and a clean, responsive UI for quick decision-making.
+
+---
 
 ## Features
 
-- View all system logs with timestamps, usernames, roles, and actions.
-- See a ranked list of top risky users.
-- Responsive, clean dashboard UI.
+- **Real-time Log View**: Displays system activity with timestamps, usernames, roles, and actions.
+- **Risk Analysis**: Highlights the top high-risk users based on recent activity.
+- **Interactive Visualization**: Risk data presented using Chart.js for easy interpretation.
+- **Responsive UI**: Tailored for desktop and mobile viewing with Tailwind CSS.
+
+---
 
 ## Tech Stack
 
-- **React** + **Vite**
-- **JavaScript**
-- **Chart.js** (for visualizing risk data)
-- **Tailwind CSS** (styling)
+- **Frontend**: React (Vite)
+- **Styling**: Tailwind CSS
+- **Data Visualization**: Chart.js
+- **Language**: JavaScript (ES6+)
 
-## Project Setup
+---
+
+## 📂 Getting Started
+
+Clone the repository:
 
 ```bash
-# Install dependencies
-npm install
-
-# Run locally
-npm run dev
+git clone https://github.com/<tanish-bollam>/threathawk.git
+cd threathawk
 ```
